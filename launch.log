@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< ru.itis:StorageService >-----------------------
+[INFO] Building StorageService 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ StorageService ---
+[INFO] Deleting /Users/ilyaivanov/IdeaProjects/StorageService/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ StorageService ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ StorageService ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 5 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ StorageService ---
+[INFO] skip non existing resourceDirectory /Users/ilyaivanov/IdeaProjects/StorageService/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ StorageService ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ StorageService ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ StorageService ---
+[INFO] Building jar: /Users/ilyaivanov/IdeaProjects/StorageService/target/StorageService-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.4.3:repackage (repackage) @ StorageService ---
+[INFO] Replacing main artifact /Users/ilyaivanov/IdeaProjects/StorageService/target/StorageService-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /Users/ilyaivanov/IdeaProjects/StorageService/target/StorageService-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.813 s
+[INFO] Finished at: 2025-06-12T23:37:43+03:00
+[INFO] ------------------------------------------------------------------------
+🐳 Сборка Docker-образа StorageService...
+./launch.sh: строка 30: mvn: команда не найдена
+❌ Ошибка Maven-сборки StorageService. Прерывание.
+./launch.sh: строка 30: mvn: команда не найдена
+❌ Ошибка Maven-сборки StorageService. Прерывание.
+./launch.sh: line 28: mvn: command not found
+❌ Ошибка Maven-сборки StorageService. Прерывание.
